@@ -1,0 +1,23 @@
+.cursiva{
+
+    font-style: italic;
+    font-size: 13px;
+}
+.titulos{
+    font-variant: small-caps;
+    font-size: 20px;
+}
+.cursiva2{
+
+    font-style: italic;
+     font-size: 20px;
+     
+ }
+ #nombre{
+
+    font-style: italic;
+}
+#titulo2{
+    font-variant: small-caps;
+    font-size: 20px;
+}

@@ -1,0 +1,176 @@
+body{
+
+    background: linear-gradient(#fdf8fd, #fdeedf); 
+}
+
+/*menú*/
+header {
+	width:100%; 
+	overflow:hidden; 
+	margin-bottom:20px;
+}
+
+#menu {
+	width:90%; 
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden; 
+}
+
+header nav {
+	float:right;
+	line-height:50px;
+}
+
+header nav a {
+	display:inline-block;
+    color: black;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+    font-variant: small-caps;
+}
+
+header nav a:hover {
+	background:#ffd3c2;
+	border-radius:50px;
+}
+
+.header2 {
+	position: fixed;
+	height:100px;
+}
+
+.header2 nav {
+	line-height:50px;
+}
+/*Final del menú*/
+
+/*boton contáctame*/
+#contacto{
+    border-radius: 20px;
+    background-color: rgb(248, 158, 74);
+   border: none;
+   font-variant: small-caps;
+}
+
+/*Contenedor donde se abjunta mi foto*/
+#seccionfoto{
+    background-color: #fcf0e3;
+    float: left;
+    height: 50vh;
+    width: 40%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(83, 79, 79);
+}
+
+/*Contenedor donde se adjunta el texto "sobre mí"*/
+#seccionsobremi{
+
+    background-color: rgba(255, 251, 236, 0.897);
+    float: right;
+    text-align: center;
+    height: 50vh;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+/*Contenedor experiencia laboral*/
+#experiencialaboral{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+}
+
+/*Contenedor donde se encuentran mis habilidades
+  y mi portafolio de proyectos*/
+#seccionfinal{
+
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 50px;
+}
+
+#habilidades{
+
+    border-color: black;
+    border-width: 1px;
+    width: 100px;
+    float: left;
+    margin: 0% auto;
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+#proyectos{
+
+    float: right;
+    width: 50%;
+    height: 35vh;
+    display: flex;
+    font-size: 15px;
+    border-color: black;
+    border-width: 1px;
+    margin: 20px;
+    gap: 10px;
+}
+
+/*Pie de página*/
+#pie{
+    margin-top:50px;
+    width:100%;
+    height:130px;
+    background-color: rgb(255, 235, 204);
+    box-shadow: 2px 2px 2px rgb(104, 103, 103);
+    text-align: center;
+    border-radius: 10px;    
+}
+
+#redessociales{
+
+    float: left;
+    display: block;
+    padding: 10px;
+}
+
+#informacion{
+    text-align: center;
+    float: right;
+    font-size: 17px;
+    padding: 5px;
+
+
+}
+ul{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+   
+}
+li{
+
+    list-style: none;    
+}
+  
+hr {
+
+   background-color: red;
+}
+
+ 
+

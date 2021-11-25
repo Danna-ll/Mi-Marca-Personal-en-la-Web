@@ -1,0 +1,30 @@
+body{
+
+    background:  #fdeedf; 
+}
+
+#proyecto{
+    border-radius: 15px;
+    border-width: 1px;
+    width: 50%;
+    margin: 0% auto;
+    text-align: center;
+    background-color: rgba(241, 190, 190, 0.815);
+    box-shadow: 5px 5px 10px black;
+}
+
+#fondo{
+
+    margin: 0% auto;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+    background-color: rgba(255, 241, 241, 0.897);
+    border-radius: 5px;
+}
